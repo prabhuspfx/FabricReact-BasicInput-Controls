@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "basic-input-controls-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/basicInputControls/BasicInputControlsWebPart.js",
+          "manifest": "./src/webparts/basicInputControls/BasicInputControlsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BasicInputControlsWebPartStrings": "lib/webparts/basicInputControls/loc/{locale}.js"
+  }
+}
